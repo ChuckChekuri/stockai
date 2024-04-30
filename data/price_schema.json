@@ -1,0 +1,90 @@
+{
+  "title": "prices",
+  "type": "object",
+  "properties": {
+    "ticker": {
+      "type": "string",
+      "description": "Unique identifier for the stock"
+    },
+    "datenr": {
+      "type": "number",
+      "description": "Sequential integer representation of the date"
+    },
+    "currentdate": {
+      "type": "string",
+      "description": "Calendar date of the data point"
+    },
+    "open": {
+      "type": "number",
+      "description": "The stock's price at the start of the trading day"
+    },
+    "high": {
+      "type": "number",
+      "description": "The highest price the stock reached during the day"
+    },
+    "low": {
+      "type": "number",
+      "description": "The lowest price the stock reached during the day"
+    },
+    "close": {
+      "type": "number",
+      "description": "The stock's price at the end of the trading day"
+    },
+    "volume": {
+      "type": "number",
+      "description": "The number of shares traded during the day"
+    },
+    "pchange": {
+      "type": "number",
+      "description": "Percentage change in closing price from the previous day"
+    },
+    "dchange": {
+      "type": "number",
+      "description": "Change in closing price from the previous day (in $)"
+    },
+    "yrhigh": {
+      "type": "number",
+      "description": "The highest price reached in the past 52 weeks"
+    },
+    "yrlow": {
+      "type": "number",
+      "description": "The lowest price reached in the past 52 weeks"
+    },
+    "dividend": {
+      "type": "number",
+      "description": "Cash distribution per share paid to shareholders"
+    },
+    "exdivdate": {
+      "type": "string",
+      "description": "The date on which a stock starts trading without dividend"
+    },
+    "peratio": {
+      "type": "number",
+      "description": "Ratio of stock price to earnings-per-share"
+    },
+    "yield": {
+      "type": "number",
+      "description": "Annual dividend as a percentage of stock price"
+    },
+    "avgvolume": {
+      "type": "number",
+      "description": "Average number of shares traded over a period"
+    },
+    "weekbkdate": {
+      "type": "string",
+      "description": "Date marking breakdowns into weekly periods"
+    },
+    "qtrbkdate": {
+      "type": "string",
+      "description": "Date marking breakdowns into quarterly periods"
+    },
+    "yrbkdate": {
+      "type": "string",
+      "description": "Date marking breakdowns into yearly periods"
+    },
+    "ytddate": {
+      "type": "string",
+      "description": "Date marking breakdowns within the current year"
+    }
+  }
+}

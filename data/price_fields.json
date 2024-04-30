@@ -1,0 +1,109 @@
+[
+  {
+    "Name": "ticker",
+    "Type": "string",
+    "Comment": "Unique identifier for the stock",
+    "PartitionKey": "true"
+  },
+  {
+    "Name": "datenr",
+    "Type": "int",
+    "Comment": "Sequential integer representation of the date",
+    "PartitionKey": "true"
+  },
+  {
+    "Name": "date",
+    "Type": "date",
+    "Comment": "Calendar date of the data point"
+  },
+  {
+    "Name": "open",
+    "Type": "float",
+    "Comment": "The stock's price at the start of the trading day"
+  },
+  {
+    "Name": "high",
+    "Type": "float",
+    "Comment": "The highest price the stock reached during the day"
+  },
+  {
+    "Name": "low",
+    "Type": "float",
+    "Comment": "The lowest price the stock reached during the day"
+  },
+  {
+    "Name": "close",
+    "Type": "float",
+    "Comment": "The stock's price at the end of the trading day"
+  },
+  {
+    "Name": "volume",
+    "Type": "int",
+    "Comment": "The number of shares traded during the day"
+  },
+  {
+    "Name": "pchange",
+    "Type": "float",
+    "Comment": "Percentage change in closing price from the previous day"
+  },
+  {
+    "Name": "dchange",
+    "Type": "float",
+    "Comment": "Change in closing price from the previous day (in $)"
+  },
+  {
+    "Name": "yrhigh",
+    "Type": "float",
+    "Comment": "The highest price reached in the past 52 weeks"
+  },
+  {
+    "Name": "yrlow",
+    "Type": "float",
+    "Comment": "The lowest price reached in the past 52 weeks"
+  },
+  {
+    "Name": "dividend",
+    "Type": "float",
+    "Comment": "Cash distribution per share paid to shareholders"
+  },
+  {
+    "Name": "exdivdate",
+    "Type": "date",
+    "Comment": "The date on which a stock starts trading without dividend"
+  },
+  {
+    "Name": "peratio",
+    "Type": "float",
+    "Comment": "Ratio of stock price to earnings-per-share"
+  },
+  {
+    "Name": "yield",
+    "Type": "float",
+    "Comment": "Annual dividend as a percentage of stock price"
+  },
+  {
+    "Name": "avgvolume",
+    "Type": "float",
+    "Comment": "Average number of shares traded over a period"
+  },
+  {
+    "Name": "weekbkdate",
+    "Type": "date",
+    "Comment": "Date marking breakdowns into weekly periods"
+  },
+  {
+    "Name": "qtrbkdate",
+    "Type": "date",
+    "Comment": "Date marking breakdowns into quarterly periods"
+  },
+  {
+    "Name": "yrbkdate",
+    "Type": "date",
+    "Comment": "Date marking breakdowns into yearly periods"
+  },
+  {
+    "Name": "ytddate",
+    "Type": "date",
+    "Comment": "Date marking breakdowns within the current year"
+  }
+]

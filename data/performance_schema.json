@@ -1,0 +1,127 @@
+{
+  "title": "Performance",
+  "type": "object",
+  "properties": {
+    "ticker": {
+      "Type": "string",
+      "Comment": "Unique identifier for the stock"
+    },
+    "datenr": {
+      "Type": "integer",
+      "Comment": "Sequential integer representation of the date"
+    },
+    "pchange": {
+      "Type": "float",
+      "Comment": "Percentage change in closing price compared to the previous day"
+    },
+    "wkchange": {
+      "Type": "float",
+      "Comment": "Percentage change in closing price compared to the previous week"
+    },
+    "qtrchange": {
+      "Type": "float",
+      "Comment": "Percentage change in closing price compared to the start of the quarter"
+    },
+    "yrchange": {
+      "Type": "float",
+      "Comment": "Percentage change in closing price compared to the start of the year"
+    },
+    "ytdchange": {
+      "Type": "float",
+      "Comment": "Percentage change in closing price from the start of the year until the current date"
+    },
+    "currrating": {
+      "Type": "string",
+      "Comment": "Analyst rating for the stock (e.g., 'Buy', 'Sell', 'Hold')"
+    },
+    "prevrating": {
+      "Type": "string",
+      "Comment": "The previous analyst rating for the stock"
+    },
+    "changeddate": {
+      "Type": "date",
+      "Comment": "The date on which the analyst rating was changed"
+    },
+    "suffix": {
+      "Type": "string",
+      "Comment": "Additional qualifier on rating (e.g., \"Strong Buy\", \"Weak Sell\")"
+    },
+    "suffixdays": {
+      "Type": "integer",
+      "Comment": "Number of days since the current suffix was assigned"
+    },
+    "volchange": {
+      "Type": "float",
+      "Comment": "Change in trading volume compared to a previous period"
+    },
+    "dchange": {
+      "Type": "float",
+      "Comment": "Change in closing price from a previous period (in $)"
+    },
+    "prevsuffix": { "Type": "string", "Comment": "The previous rating suffix" },
+    "suffixchangeddate": {
+      "Type": "date",
+      "Comment": "The date on which the suffix rating was changed"
+    },
+    "weeksuffix": {
+      "Type": "string",
+      "Comment": "Analyst rating suffix based on weekly analysis"
+    },
+    "weekprevsuffix": {
+      "Type": "string",
+      "Comment": "The previous weekly rating suffix"
+    },
+    "weeksuffixchangeddate": {
+      "Type": "date",
+      "Comment": "The date on which the weekly suffix was changed"
+    },
+    "weeksuffixdays": {
+      "Type": "integer",
+      "Comment": "Number of days since the current weekly suffix was assigned"
+    },
+    "dailystoploss": {
+      "Type": "float",
+      "Comment": "Price below which a sell order might be triggered to limit losses"
+    },
+    "weeklystoploss": {
+      "Type": "float",
+      "Comment": "Stop loss price calculated on a weekly basis"
+    },
+    "dailystopbuy": {
+      "Type": "float",
+      "Comment": "Price above which a buy order might be triggered to enter a position"
+    },
+    "weeklystopbuy": {
+      "Type": "float",
+      "Comment": "Stop buy price calculated on a weekly basis"
+    },
+    "2wkchange": {
+      "Type": "float",
+      "Comment": "Percentage change in closing price compared to the previous 2 weeks"
+    },
+    "3wkchange": {
+      "Type": "float",
+      "Comment": "Percentage change in closing price compared to the previous 3 weeks"
+    },
+    "mthchange": {
+      "Type": "float",
+      "Comment": "Percentage change in closing price compared to the previous month"
+    },
+    "monthlystopbuy": {
+      "Type": "float",
+      "Comment": "Price to buy a stock in 30 days if the price hits stop buy price"
+    },
+    "monthlystoploss": {
+      "Type": "float",
+      "Comment": "Price to sell a stock in 30 days if the price hits stop loss price"
+    },
+    "weekhigh": {
+      "Type": "float",
+      "Comment": "Highest price reached within the week"
+    },
+    "weeklow": {
+      "Type": "float",
+      "Comment": "Lowest price reached within the week"
+    }
+  }
+}

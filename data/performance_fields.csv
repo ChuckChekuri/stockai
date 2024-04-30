@@ -1,0 +1,32 @@
+Fields,Datatype,Label,Detailed Description,Analytic Category,Chart Suggestion
+ticker,string,Stock Symbol,Unique identifier for the stock,Categorical,Pie chart (distribution of stocks)
+datenr,integer,Date Number,Sequential integer representation of the date,Numerical,Line chart (trends over time)
+pchange,float,Daily Percent Change,Percentage change in closing price compared to the previous day,Numerical,"Line chart, bar chart"
+wkchange,float,Weekly Percent Change,Percentage change in closing price compared to the previous week,Numerical,"Line chart, bar chart"
+qtrchange,float,Quarterly Percent Change,Percentage change in closing price compared to the start of the quarter,Numerical,"Line chart, bar chart"
+yrchange,float,Yearly Percent Change,Percentage change in closing price compared to the start of the year,Numerical,"Line chart, bar chart"
+ytdchange,float,YTD Percent Change,Percentage change in closing price from the start of the year until the current date,Numerical,"Line chart, bar chart"
+currrating,string,Current Rating,"Analyst rating for the stock (e.g., 'Buy', 'Sell', 'Hold')",Categorical,"Bar chart (distribution of ratings), stacked bar chart"
+prevrating,string,Previous Rating,The previous analyst rating for the stock,Categorical,"Sankey diagram (changes in ratings), stacked bar chart"
+changeddate,date,Rating Change Date,The date on which the analyst rating was changed,Time Series,Marked points on a line chart (alongside price movements)
+suffix,string,Rating Suffix,"Additional qualifier on rating (e.g., ""Strong Buy"", ""Weak Sell"")",Categorical,Stacked bar chart
+suffixdays,integer,Days Since Suffix,Number of days since the current suffix was assigned,Numerical,Line chart
+volchange,float,Volume Change,Change in trading volume compared to a previous period,Numerical,"Line chart, bar chart"
+dchange,float,Dollar Change,Change in closing price from a previous period (in $),Numerical,"Line chart, bar chart"
+prevsuffix,string,Previous Suffix,The previous rating suffix,Categorical,Sankey diagram
+suffixchangeddate,date,Suffix Change Date,The date on which the suffix rating was changed,Time Series,Marked points on charts
+weeksuffix,string,Weekly Suffix,Analyst rating suffix based on weekly analysis,Categorical,Stacked bar chart
+weekprevsuffix,string,Weekly Prev. Suffix,The previous weekly rating suffix,Categorical,Sankey diagram
+weeksuffixchangeddate,date,Weekly Suffix Chg Date,The date on which the weekly suffix was changed,Time Series,Marked points on charts
+weeksuffixdays,integer,Days Since Wk. Suffix,Number of days since the current weekly suffix was assigned,Numerical,Line chart
+dailystoploss,float,Daily Stop Loss,Price below which a sell order might be triggered to limit losses,Numerical,Line chart (as a reference line)
+weeklystoploss,float,Weekly Stop Loss,Stop loss price calculated on a weekly basis,Numerical,Line chart (as a reference line)
+dailystopbuy,float,Daily Stop Buy,Price above which a buy order might be triggered to enter a position,Numerical,Line chart (as a reference line)
+weeklystopbuy,float,Weekly Stop Buy,Stop buy price calculated on a weekly basis,Numerical,Line chart (as a reference line)
+2wkchange,float,2-Week Percent Change,Percentage change in closing price compared to the previous 2 weeks,Numerical,
+3wkchange,float,3-Week Percent Change,Percentage change in closing price compared to the previous 3 weeks,Numerical,
+mthchange,float,Monthly Percent Change,Percentage change in closing price compared to the previous month,Numerical,
+monthlystopbuy,float,Monthly Stop Buy,Price to buy a stock in 30 days if the price hits stop buy price,Numerical,
+monthlystoploss,float,Monthly Stop Loss,Price to sell a stock in 30 days if the price hits stop loss price,Numerical,
+weekhigh,float,Weekly High,Highest price reached within the week,Numerical,"Candlestick chart, OHLC chart"
+weeklow,float,Weekly Low,Lowest price reached within the week,Numerical,"Candlestick chart, OHLC chart"

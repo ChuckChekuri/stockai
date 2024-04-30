@@ -1,0 +1,15 @@
+mkdir layer-packages
+pip install --target layer-packages requests beautifulsoup4
+zip -r  stockai.zip layer-packages
+aws s3 cp stockai.zip s3://pypkzip
+aws lambda publish-layer-version \
+    --layer-name PyPackages \
+    --description "Layer with requests and bs4" \
+    --content S3Bucket=pypkzip,S3Key=stockai.zip \
+    --compatible-runtimes python3.9
+
+## Need lambda:PublishLayerVersion 
+
+https://pypkzip.s3.amazonaws.com/stockai.zip
+
+source ~/venv/pypk/bin/activate

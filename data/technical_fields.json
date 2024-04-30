@@ -1,0 +1,252 @@
+[
+  {
+    "Name": "equityticker",
+    "Type": "string",
+    "Comment": "Unique identifier for the stock",
+    "PartitionKey" : true
+  },
+  {
+    "Name": "50dma",
+    "Type": "float",
+    "Comment": "The average closing price over the past 50 trading days"
+  },
+  {
+    "Name": "200dma",
+    "Type": "float",
+    "Comment": "The average closing price over the past 200 trading days"
+  },
+  {
+    "Name": "macd",
+    "Type": "float",
+    "Comment": "Moving Average Convergence Divergence (momentum indicator)"
+  },
+  {
+    "Name": "prevdate",
+    "Type": "date",
+    "Comment": "The date of the previous data point"
+  },
+  {
+    "Name": "date",
+    "Type": "date",
+    "Comment": "The date associated with the data point",
+    "PartitionKey" : true
+  },
+  {
+    "Name": "3dma",
+    "Type": "float",
+    "Comment": "The average closing price over the past 3 trading days"
+  },
+  {
+    "Name": "7dma",
+    "Type": "float",
+    "Comment": "The average closing price over the past 7 trading days"
+  },
+  {
+    "Name": "macdprev",
+    "Type": "float",
+    "Comment": "The MACD value from the previous data point"
+  },
+  {
+    "Name": "macdchange",
+    "Type": "float",
+    "Comment": "The change in MACD value since the previous data point"
+  },
+  {
+    "Name": "dmadiff",
+    "Type": "float",
+    "Comment": "The difference between shorter and longer DMAs (e.g., 50dma - 200dma)"
+  },
+  {
+    "Name": "3dmaweekly",
+    "Type": "float",
+    "Comment": "The average weekly closing price over the past 3 weeks"
+  },
+  {
+    "Name": "7dmaweekly",
+    "Type": "float",
+    "Comment": "The average weekly closing price over the past 7 weeks"
+  },
+  {
+    "Name": "50dmaweekly",
+    "Type": "float",
+    "Comment": "The average weekly closing price over the past 50 weeks"
+  },
+  {
+    "Name": "200dmaweekly",
+    "Type": "float",
+    "Comment": "The average weekly closing price over the past 200 weeks"
+  },
+  {
+    "Name": "macdweekly",
+    "Type": "float",
+    "Comment": "MACD calculated over a weekly timeframe"
+  },
+  {
+    "Name": "macdprevweekly",
+    "Type": "float",
+    "Comment": "The previous week's MACD value"
+  },
+  {
+    "Name": "macdchangeweekly",
+    "Type": "float",
+    "Comment": "The change in MACD value since the previous week"
+  },
+  {
+    "Name": "dmadiffweekly",
+    "Type": "float",
+    "Comment": "The difference between shorter and longer weekly DMAs"
+  },
+  {
+    "Name": "dmadiffprev",
+    "Type": "float",
+    "Comment": "DMA difference value of the previous data point"
+  },
+  {
+    "Name": "dmadiffweeklyprev",
+    "Type": "float",
+    "Comment": "The DMA difference value from two weeks ago"
+  },
+  {
+    "Name": "macdweeklyprev",
+    "Type": "float",
+    "Comment": "The MACD value from two weeks ago"
+  },
+  {
+    "Name": "dma3prev",
+    "Type": "float",
+    "Comment": "The 3-day moving average calculated two data points in the past"
+  },
+  {
+    "Name": "dma3weeklyprev",
+    "Type": "float",
+    "Comment": "The weekly 3-day moving average calculated two weeks ago"
+  },
+  {
+    "Name": "momo",
+    "Type": "float",
+    "Comment": "Rate of change of price for a specific (short) period"
+  },
+  {
+    "Name": "momoweekly",
+    "Type": "float",
+    "Comment": "Rate of change of price over a weekly timeframe"
+  },
+  {
+    "Name": "3dmamonthly",
+    "Type": "float",
+    "Comment": "Monthly 3-Day Moving Average"
+  },
+  {
+    "Name": "7dmamonthly",
+    "Type": "float",
+    "Comment": "Monthly 7-Day Moving Average"
+  },
+  {
+    "Name": "dma3monthlyprev",
+    "Type": "float",
+    "Comment": "Monthly 3-DMA (Prev. Month)"
+  },
+  { "Name": "macdmonthly", "Type": "float", "Comment": "Monthly MACD" },
+  {
+    "Name": "macdmonthlyprev",
+    "Type": "float",
+    "Comment": "Monthly Previous MACD"
+  },
+  {
+    "Name": "dmadiffmonthly",
+    "Type": "float",
+    "Comment": "Monthly DMA Difference"
+  },
+  {
+    "Name": "50dmamonthly",
+    "Type": "float",
+    "Comment": "Monthly 50-Day Moving Average"
+  },
+  {
+    "Name": "dmadiffmonthlyprev",
+    "Type": "float",
+    "Comment": "Prev. Month's DMA Difference"
+  },
+  { "Name": "momomonthly", "Type": "float", "Comment": "Monthly Momentum" },
+  { "Name": "13dma", "Type": "float", "Comment": "13-Day Moving Average" },
+  {
+    "Name": "13dmaweekly",
+    "Type": "float",
+    "Comment": "Weekly 13-Day Moving Average"
+  },
+  {
+    "Name": "13dmamonthly",
+    "Type": "float",
+    "Comment": "Monthly 13-Day Moving Average"
+  },
+  {
+    "Name": "dma13prev",
+    "Type": "float",
+    "Comment": "13-Day Moving Average (Prev. Period)"
+  },
+  {
+    "Name": "dma13weeklyprev",
+    "Type": "float",
+    "Comment": "Weekly 13-DMA (Prev. Week)"
+  },
+  {
+    "Name": "dma13monthlyprev",
+    "Type": "float",
+    "Comment": "Monthly 13-DMA (Prev. Month)"
+  },
+  {
+    "Name": "dma3prevprev",
+    "Type": "float",
+    "Comment": "The 3-day moving average calculated three data points in the past"
+  },
+  {
+    "Name": "dma3weeklyprevprev",
+    "Type": "float",
+    "Comment": "The weekly 3-day moving average calculated three weeks ago"
+  },
+  {
+    "Name": "score",
+    "Type": "float",
+    "Comment": "Calculated score, potentially combining technical factors"
+  },
+  {
+    "Name": "scoreprev",
+    "Type": "float",
+    "Comment": "The custom score from the previous data point"
+  },
+  {
+    "Name": "scoredate",
+    "Type": "date",
+    "Comment": "The date on which the custom score was calculated"
+  },
+  {
+    "Name": "dyna3dma",
+    "Type": "float",
+    "Comment": "Moving average with length adjusted based on volatility"
+  },
+  {
+    "Name": "dyna3dmaweekly",
+    "Type": "float",
+    "Comment": "The dynamic 3-day moving average value every week"
+  },
+  {
+    "Name": "dyna3dmaprev",
+    "Type": "float",
+    "Comment": "The dynamic 3-day moving average value from the previous data point"
+  },
+  {
+    "Name": "dyna3dmaweeklyprev",
+    "Type": "float",
+    "Comment": "The previous week's dynamic 3-day moving average"
+  },
+  {
+    "Name": "scorediff",
+    "Type": "float",
+    "Comment": "The change in the custom score since the previous data point"
+  },
+  {
+    "Name": "scorelast",
+    "Type": "float",
+    "Comment": "The most recent value of the custom score"
+  }
+]

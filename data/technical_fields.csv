@@ -1,0 +1,53 @@
+Fields,Datatype,Label,Detailed Description,Analytic Category,Chart Suggestion
+equityticker,string,Stock Symbol,Unique identifier for the stock,Categorical,Pie chart (distribution of stocks in dataset)
+50dma,float,50-Day Moving Average,The average closing price over the past 50 trading days,Trend Analysis,Line chart
+200dma,float,200-Day Moving Average,The average closing price over the past 200 trading days,Trend Analysis,Line chart
+macd,float,MACD,Moving Average Convergence Divergence (momentum indicator),"Trend Analysis, Momentum","Line chart, histogram"
+prevdate,date,Previous Date,The date of the previous data point,Time Series,Marked points on charts
+date,date,Date,The date associated with the data point,Time Series,Marked points on charts
+3dma,float,3-Day Moving Average,The average closing price over the past 3 trading days,Trend Analysis,Line chart
+7dma,float,7-Day Moving Average,The average closing price over the past 7 trading days,Trend Analysis,Line chart
+macdprev,float,Previous MACD,The MACD value from the previous data point,"Trend Analysis, Momentum",Line chart
+macdchange,float,MACD Change,The change in MACD value since the previous data point,"Trend Analysis, Momentum",Line chart
+dmadiff,float,DMA Difference,"The difference between shorter and longer DMAs (e.g., 50dma - 200dma)","Trend, Crossover Analysis",Line chart
+3dmaweekly,float,Weekly 3-Day Moving Average,The average weekly closing price over the past 3 weeks,Trend Analysis,Line chart
+7dmaweekly,float,Weekly 7-Day Moving Average,The average weekly closing price over the past 7 weeks,Trend Analysis,Line chart
+50dmaweekly,float,Weekly 50-Day Moving Average,The average weekly closing price over the past 50 weeks,Trend Analysis,Line chart
+200dmaweekly,float,Weekly 200-Day Moving Average,The average weekly closing price over the past 200 weeks,Trend Analysis,Line chart
+macdweekly,float,Weekly MACD,MACD calculated over a weekly timeframe,"Trend Analysis, Momentum","Line chart, histogram"
+macdprevweekly,float,Weekly Previous MACD,The previous week's MACD value,"Trend Analysis, Momentum",Line chart
+macdchangeweekly,float,Weekly MACD Change,The change in MACD value since the previous week,"Trend Analysis, Momentum",Line chart
+dmadiffweekly,float,Weekly DMA Difference,The difference between shorter and longer weekly DMAs,"Trend, Crossover Analysis",Line chart
+dmadiffprev,float,Previous DMA Difference,DMA difference value of the previous data point,"Trend, Crossover Analysis",Line chart
+dmadiffweeklyprev,float,Previous Week's DMA Difference,The DMA difference value from two weeks ago,"Trend, Crossover Analysis",Line chart
+macdweeklyprev,float,Previous Week's MACD,The MACD value from two weeks ago,"Trend Analysis, Momentum",Line chart
+dma3prev,float,3-Day Moving Average (2 periods ago),The 3-day moving average calculated two data points in the past,Trend Analysis,Line chart
+dma3weeklyprev,float,Weekly 3-DMA (2 periods ago),The weekly 3-day moving average calculated two weeks ago,Trend Analysis,Line chart
+momo,float,Momentum,Rate of change of price for a specific (short) period,Momentum Analysis,"Bar chart, line chart"
+momoweekly,float,Weekly Momentum,Rate of change of price over a weekly timeframe,Momentum Analysis,"Bar chart, line chart"
+3dmamonthly,float,Monthly 3-Day Moving Average,Monthly 3-Day Moving Average,Trend Analysis,Line chart
+7dmamonthly,float,Monthly 7-Day Moving Average,Monthly 7-Day Moving Average,Trend Analysis,Line chart
+dma3monthlyprev,float,Monthly 3-DMA (Prev. Month),Monthly 3-DMA (Prev. Month),Trend Analysis,Line chart
+macdmonthly,float,Monthly MACD,Monthly MACD,Trend Analysis,Line chart
+macdmonthlyprev,float,Monthly Previous MACD,Monthly Previous MACD,"Trend Analysis, Momentum","Line chart, histogram"
+dmadiffmonthly,float,Monthly DMA Difference,Monthly DMA Difference,"Trend Analysis, Momentum",Line chart
+50dmamonthly,float,Monthly 50-Day Moving Average,Monthly 50-Day Moving Average,"Trend Analysis, Momentum",Line chart
+dmadiffmonthlyprev,float,Prev. Month's DMA Difference,Prev. Month's DMA Difference,"Trend, Crossover Analysis",Line chart
+momomonthly,float,Monthly Momentum,Monthly Momentum,"Trend, Crossover Analysis",Line chart
+13dma,float,13-Day Moving Average,13-Day Moving Average,"Trend, Crossover Analysis",Line chart
+13dmaweekly,float,Weekly 13-Day Moving Average,Weekly 13-Day Moving Average,"Trend Analysis, Momentum",Line chart
+13dmamonthly,float,Monthly 13-Day Moving Average,Monthly 13-Day Moving Average,Trend Analysis,Line chart
+dma13prev,float,13-Day Moving Average (Prev. Period),13-Day Moving Average (Prev. Period),Trend Analysis,Line chart
+dma13weeklyprev,float,Weekly 13-DMA (Prev. Week),Weekly 13-DMA (Prev. Week),Momentum Analysis,"Bar chart, line chart"
+dma13monthlyprev,float,Monthly 13-DMA (Prev. Month),Monthly 13-DMA (Prev. Month),Momentum Analysis,"Bar chart, line chart"
+dma3prevprev,float,3-Day Moving Average (3 periods ago),The 3-day moving average calculated three data points in the past,Trend Analysis,Line chart
+dma3weeklyprevprev,float,Weekly 3-DMA (3 periods ago),The weekly 3-day moving average calculated three weeks ago,Trend Analysis,Line chart
+score,float,Custom Score,"Calculated score, potentially combining technical factors","Scoring, Ranking","Bar chart, scatter plot, line chart (to track changes over time)"
+scoreprev,float,Previous Custom Score,The custom score from the previous data point,"Scoring, Ranking",Line chart (to track changes over time)
+scoredate,date,Score Calculation Date,The date on which the custom score was calculated,Time Series,Marked points on charts
+dyna3dma,float,Dynamic 3-Day MA,Moving average with length adjusted based on volatility,"Trend, Volatility Based","Line chart, shaded areas (representing volatility)"
+dyna3dmaweekly,float,Weekly Dynamic 3-Day,The dynamic 3-day moving average value every week,"Trend, Volatility Based",Line chart
+dyna3dmaprev,float,Previous Dynamic 3-Day MA,The dynamic 3-day moving average value from the previous data point,"Trend, Volatility Based",Line chart
+dyna3dmaweeklyprev,float,Weekly Prev. Dynamic 3-DMA,The previous week's dynamic 3-day moving average,"Trend, Volatility Based",Line chart
+scorediff,float,Custom Score Change,The change in the custom score since the previous data point,Scoring,"Line chart (to track changes over time), bar chart (for magnitude comparison)"
+scorelast,float,Most Recent Custom Score,The most recent value of the custom score,-,-

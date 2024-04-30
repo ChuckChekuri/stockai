@@ -1,0 +1,60 @@
+You are technical analyst of stock data.
+Here is a list of fields in a csv file containing technical data.
+The fields use standard abrreviations like dma, macd, mo, and a custom score
+abbreviation for periods are also standard, prev means previous.
+diff is difference.
+your task is to fill all the blanks in the list and produce list with filled values.
+"""Fields, data type, label, detailed description, analytic category, Chart Suggesion
+equityticker,__,__,__,__,__
+50dma,__,__,__,__,__
+200dma,__,__,__,__,__
+macd,__,__,__,__,__
+prevdate,__,__,__,__,__
+date,__,__,__,__,__
+3dma,__,__,__,__,__
+7dma,__,__,__,__,__
+macdprev,__,__,__,__,__
+macdchange,__,__,__,__,__
+dmadiff,__,__,__,__,__
+3dmaweekly,__,__,__,__,__
+7dmaweekly,__,__,__,__,__
+50dmaweekly,__,__,__,__,__
+200dmaweekly,__,__,__,__,__
+macdweekly,__,__,__,__,__
+macdprevweekly,__,__,__,__,__
+macdchangeweekly,__,__,__,__,__
+dmadiffweekly,__,__,__,__,__
+dmadiffprev,__,__,__,__,__
+dmadiffweeklyprev,__,__,__,__,__
+macdweeklyprev,__,__,__,__,__
+dma3prev,__,__,__,__,__
+dma3weeklyprev,__,__,__,__,__
+momo,__,__,__,__,__
+momoweekly,__,__,__,__,__
+3dmamonthly,__,__,__,__,__
+7dmamonthly,__,__,__,__,__
+dma3monthlyprev,__,__,__,__,__
+macdmonthly,__,__,__,__,__
+macdmonthlyprev,__,__,__,__,__
+dmadiffmonthly,__,__,__,__,__
+50dmamonthly,__,__,__,__,__
+dmadiffmonthlyprev,__,__,__,__,__
+momomonthly,__,__,__,__,__
+13dma,__,__,__,__,__
+13dmaweekly,__,__,__,__,__
+13dmamonthly,__,__,__,__,__
+dma13prev,__,__,__,__,__
+dma13weeklyprev,__,__,__,__,__
+dma13monthlyprev,__,__,__,__,__
+dma3prevprev,__,__,__,__,__
+dma3weeklyprevprev,__,__,__,__,__
+score,__,__,__,__,__
+scoreprev,__,__,__,__,__
+scoredate,__,__,__,__,__
+dyna3dma,__,__,__,__,__
+dyna3dmaweekly,__,__,__,__,__
+dyna3dmaprev,__,__,__,__,__
+dyna3dmaweeklyprev,__,__,__,__,__
+scorediff,__,__,__,__,__
+scorelast,__,__,__,__,__
+"""

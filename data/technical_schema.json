@@ -1,0 +1,266 @@
+{
+  "name": "technical",
+  "type": "object",
+  "properties": {
+    "equityticker": {
+      "type": "string",
+      "label": "Stock Symbol",
+      "description": "Unique identifier for the stock"
+    },
+    "50dma": {
+      "type": "float",
+      "label": "50-Day Moving Average",
+      "description": "The average closing price over the past 50 trading days"
+    },
+    "200dma": {
+      "type": "float",
+      "label": "200-Day Moving Average",
+      "description": "The average closing price over the past 200 trading days"
+    },
+    "macd": {
+      "type": "float",
+      "label": "MACD",
+      "description": "Moving Average Convergence Divergence (momentum indicator)"
+    },
+    "prevdate": {
+      "type": "date",
+      "label": "Previous Date",
+      "description": "The date of the previous data point"
+    },
+    "date": {
+      "type": "date",
+      "label": "Date",
+      "description": "The date associated with the data point"
+    },
+    "3dma": {
+      "type": "float",
+      "label": "3-Day Moving Average",
+      "description": "The average closing price over the past 3 trading days"
+    },
+    "7dma": {
+      "type": "float",
+      "label": "7-Day Moving Average",
+      "description": "The average closing price over the past 7 trading days"
+    },
+    "macdprev": {
+      "type": "float",
+      "label": "Previous MACD",
+      "description": "The MACD value from the previous data point"
+    },
+    "macdchange": {
+      "type": "float",
+      "label": "MACD Change",
+      "description": "The change in MACD value since the previous data point"
+    },
+    "dmadiff": {
+      "type": "float",
+      "label": "DMA Difference",
+      "description": "The difference between shorter and longer DMAs (e.g., 50dma - 200dma)"
+    },
+    "3dmaweekly": {
+      "type": "float",
+      "label": "Weekly 3-Day Moving Average",
+      "description": "The average weekly closing price over the past 3 weeks"
+    },
+    "7dmaweekly": {
+      "type": "float",
+      "label": "Weekly 7-Day Moving Average",
+      "description": "The average weekly closing price over the past 7 weeks"
+    },
+    "50dmaweekly": {
+      "type": "float",
+      "label": "Weekly 50-Day Moving Average",
+      "description": "The average weekly closing price over the past 50 weeks"
+    },
+    "200dmaweekly": {
+      "type": "float",
+      "label": "Weekly 200-Day Moving Average",
+      "description": "The average weekly closing price over the past 200 weeks"
+    },
+    "macdweekly": {
+      "type": "float",
+      "label": "Weekly MACD",
+      "description": "MACD calculated over a weekly timeframe"
+    },
+    "macdprevweekly": {
+      "type": "float",
+      "label": "Weekly Previous MACD",
+      "description": "The previous week's MACD value"
+    },
+    "macdchangeweekly": {
+      "type": "float",
+      "label": "Weekly MACD Change",
+      "description": "The change in MACD value since the previous week"
+    },
+    "dmadiffweekly": {
+      "type": "float",
+      "label": "Weekly DMA Difference",
+      "description": "The difference between shorter and longer weekly DMAs"
+    },
+    "dmadiffprev": {
+      "type": "float",
+      "label": "Previous DMA Difference",
+      "description": "DMA difference value of the previous data point"
+    },
+    "dmadiffweeklyprev": {
+      "type": "float",
+      "label": "Previous Week's DMA Difference",
+      "description": "The DMA difference value from two weeks ago"
+    },
+    "macdweeklyprev": {
+      "type": "float",
+      "label": "Previous Week's MACD",
+      "description": "The MACD value from two weeks ago"
+    },
+    "dma3prev": {
+      "type": "float",
+      "label": "3-Day Moving Average (2 periods ago)",
+      "description": "The 3-day moving average calculated two data points in the past"
+    },
+    "dma3weeklyprev": {
+      "type": "float",
+      "label": "Weekly 3-DMA (2 periods ago)",
+      "description": "The weekly 3-day moving average calculated two weeks ago"
+    },
+    "momo": {
+      "type": "float",
+      "label": "Momentum",
+      "description": "Rate of change of price for a specific (short) period"
+    },
+    "momoweekly": {
+      "type": "float",
+      "label": "Weekly Momentum",
+      "description": "Rate of change of price over a weekly timeframe"
+    },
+    "3dmamonthly": {
+      "type": "float",
+      "label": "Monthly 3-Day Moving Average",
+      "description": "Monthly 3-Day Moving Average"
+    },
+    "7dmamonthly": {
+      "type": "float",
+      "label": "Monthly 7-Day Moving Average",
+      "description": "Monthly 7-Day Moving Average"
+    },
+    "dma3monthlyprev": {
+      "type": "float",
+      "label": "Monthly 3-DMA (Prev. Month)",
+      "description": "Monthly 3-DMA (Prev. Month)"
+    },
+    "macdmonthly": {
+      "type": "float",
+      "label": "Monthly MACD",
+      "description": "Monthly MACD"
+    },
+    "macdmonthlyprev": {
+      "type": "float",
+      "label": "Monthly Previous MACD",
+      "description": "Monthly Previous MACD"
+    },
+    "dmadiffmonthly": {
+      "type": "float",
+      "label": "Monthly DMA Difference",
+      "description": "Monthly DMA Difference"
+    },
+    "50dmamonthly": {
+      "type": "float",
+      "label": "Monthly 50-Day Moving Average",
+      "description": "Monthly 50-Day Moving Average"
+    },
+    "dmadiffmonthlyprev": {
+      "type": "float",
+      "label": "Prev. Month's DMA Difference",
+      "description": "Prev. Month's DMA Difference"
+    },
+    "momomonthly": {
+      "type": "float",
+      "label": "Monthly Momentum",
+      "description": "Monthly Momentum"
+    },
+    "13dma": {
+      "type": "float",
+      "label": "13-Day Moving Average",
+      "description": "13-Day Moving Average"
+    },
+    "13dmaweekly": {
+      "type": "float",
+      "label": "Weekly 13-Day Moving Average",
+      "description": "Weekly 13-Day Moving Average"
+    },
+    "13dmamonthly": {
+      "type": "float",
+      "label": "Monthly 13-Day Moving Average",
+      "description": "Monthly 13-Day Moving Average"
+    },
+    "dma13prev": {
+      "type": "float",
+      "label": "13-Day Moving Average (Prev. Period)",
+      "description": "13-Day Moving Average (Prev. Period)"
+    },
+    "dma13weeklyprev": {
+      "type": "float",
+      "label": "Weekly 13-DMA (Prev. Week)",
+      "description": "Weekly 13-DMA (Prev. Week)"
+    },
+    "dma13monthlyprev": {
+      "type": "float",
+      "label": "Monthly 13-DMA (Prev. Month)",
+      "description": "Monthly 13-DMA (Prev. Month)"
+    },
+    "dma3prevprev": {
+      "type": "float",
+      "label": "3-Day Moving Average (3 periods ago)",
+      "description": "The 3-day moving average calculated three data points in the past"
+    },
+    "dma3weeklyprevprev": {
+      "type": "float",
+      "label": "Weekly 3-DMA (3 periods ago)",
+      "description": "The weekly 3-day moving average calculated three weeks ago"
+    },
+    "score": {
+      "type": "float",
+      "label": "Custom Score",
+      "description": "Calculated score, potentially combining technical factors"
+    },
+    "scoreprev": {
+      "type": "float",
+      "label": "Previous Custom Score",
+      "description": "The custom score from the previous data point"
+    },
+    "scoredate": {
+      "type": "date",
+      "label": "Score Calculation Date",
+      "description": "The date on which the custom score was calculated"
+    },
+    "dyna3dma": {
+      "type": "float",
+      "label": "Dynamic 3-Day MA",
+      "description": "Moving average with length adjusted based on volatility"
+    },
+    "dyna3dmaweekly": {
+      "type": "float",
+      "label": "Weekly Dynamic 3-Day",
+      "description": "The dynamic 3-day moving average value every week"
+    },
+    "dyna3dmaprev": {
+      "type": "float",
+      "label": "Previous Dynamic 3-Day MA",
+      "description": "The dynamic 3-day moving average value from the previous data point"
+    },
+    "dyna3dmaweeklyprev": {
+      "type": "float",
+      "label": "Weekly Prev. Dynamic 3-DMA",
+      "description": "The previous week's dynamic 3-day moving average"
+    },
+    "scorediff": {
+      "type": "float",
+      "label": "Custom Score Change",
+      "description": "The change in the custom score since the previous data point"
+    },
+    "scorelast": {
+      "type": "float",
+      "label": "Most Recent Custom Score",
+      "description": "The most recent value of the custom score"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+Fields,Datatype,Label,Detailed Description,Analytic Category,Chart Suggestion
+ticker,string,Stock Symbol,Unique identifier for the stock,Categorical,Pie chart (distribution of stocks in dataset)
+datenr,int,Date Number,Sequential integer representation of the date,Numerical,Line chart (trends over time)
+date,date,Date,Calendar date of the data point,Time Series,"Line chart, candlestick chart"
+open,float,Opening Price,The stock's price at the start of the trading day,Numerical,"Candlestick chart, OHLC chart"
+high,float,Daily High,The highest price the stock reached during the day,Numerical,"Candlestick chart, OHLC chart"
+low,float,Daily Low,The lowest price the stock reached during the day,Numerical,"Candlestick chart, OHLC chart"
+close,float,Closing Price,The stock's price at the end of the trading day,Numerical,"Line chart, candlestick chart, OHLC chart"
+volume,int,Trading Volume,The number of shares traded during the day,Numerical,"Bar chart, line chart"
+pchange,float,Percent Change,Percentage change in closing price from the previous day,Numerical,"Line chart, bar chart"
+dchange,float,Dollar Change,Change in closing price from the previous day (in $),Numerical,"Line chart, bar chart"
+yrhigh,float,52-Week High,The highest price reached in the past 52 weeks,Numerical,Line chart with reference lines
+yrlow,float,52-Week Low,The lowest price reached in the past 52 weeks,Numerical,Line chart with reference lines
+dividend,float,Dividend,Cash distribution per share paid to shareholders,Numerical,"Bar chart (across companies), line chart (over time)"
+exdivdate,date,Ex-Dividend Date,The date on which a stock starts trading without dividend,Time Series,Scatter plot (marking ex-dividend dates on charts)
+peratio,float,Price-to-Earnings,Ratio of stock price to earnings-per-share,Valuation,"Bar chart (comparison), scatter plot"
+yield,float,Dividend Yield,Annual dividend as a percentage of stock price,Valuation,"Bar chart, line chart"
+avgvolume,float,Avg. Daily Volume,Average number of shares traded over a period,Numerical,Line chart
+weekbkdate,date,Week Breakdown Date,Date marking breakdowns into weekly periods,Time Series,"Line chart, grouped charts"
+qtrbkdate,date,Qtr. Breakdown Date,Date marking breakdowns into quarterly periods,Time Series,"Line chart, grouped charts"
+yrbkdate,date,Year Breakdown Date,Date marking breakdowns into yearly periods,Time Series,"Line chart, grouped charts"
+ytddate,date,YTD Breakdown Date,Date marking breakdowns within the current year,Time Series,"Line chart, grouped charts"
